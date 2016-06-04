@@ -35,7 +35,7 @@ public class Main {
 //        }
 //        System.out.println("wygenerowal dane");
 //
-//        // add training data to training set (logical OR function)
+//        // add training data to <></>raining set (logical OR function)
 //        trainingSet.addRow (new DataSetRow(input0, new double[]{0}));
 //        trainingSet.addRow (new DataSetRow (input1, new double[]{1}));
 //        trainingSet.addRow (new DataSetRow (input2, new double[]{0.4}));
