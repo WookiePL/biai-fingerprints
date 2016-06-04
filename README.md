@@ -5,6 +5,7 @@
 * [Training data] (http://bias.csr.unibo.it/fvc2000/download.asp)
 * [Neuroph framework] (http://neuroph.sourceforge.net/documentation.html)
 * [Multilayer perceptron] (http://neuroph.sourceforge.net/tutorials/MultiLayerPerceptron.html)
+* [LSD: a Line Segment Detector ] (http://demo.ipol.im/demo/gjmr_line_segment_detector/)
 
 ## Jak naprawić wysypany projekt?
 Jeśli nie widać całego folderu z projektem w IntelliJ-u oto co trzeba zrobić:

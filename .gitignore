@@ -13,3 +13,9 @@ test2/m1.bmp
 biai-fingerprints.iml
 test2/l1.1.pgm
 test2/m1.1.pgm
+biai-fingerprints.properties
+biai-fingerprints.xml
+module_biai-fingerprints.xml
+
+#wyrzucam cały folder bo są problemy z projektem jak jest na repo
+.idea/*
