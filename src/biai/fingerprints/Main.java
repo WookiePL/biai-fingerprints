@@ -62,7 +62,7 @@ public class Main {
 //        }
 
         Data data = new Data();
-        data.readFromFile("X:\\CO SE STUDIUJE\\sem6\\BIAI\\materialyProjekt\\odciski\\106_2.txt", 448, 478);
+        data.readFromFile("106_2.txt", 448, 478);
         data.normalizeData();
         data.printNormalizedData();
     }
