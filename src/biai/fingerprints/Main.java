@@ -61,6 +61,7 @@ public class Main {
 //            System.out.println(networkOutput[i]);
 //        }
 
+        //just normalize and print data from .txt
         Data data = new Data();
         data.readFromFile("106_2.txt", 448, 478);
         data.normalizeData();
