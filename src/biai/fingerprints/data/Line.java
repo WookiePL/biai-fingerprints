@@ -1,4 +1,4 @@
-package biai.fingerprints.test;
+package biai.fingerprints.data;
 
 public class Line {
 
