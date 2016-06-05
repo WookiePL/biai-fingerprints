@@ -68,15 +68,12 @@ public class TestingModule {
     }
 
     private static final double LIMIT = 0.5;
-    private static final String ANSI_RESET = "\u001B[0m";
-    private static final String ANSI_GREEN = "\u001B[32m";
-    private static final String ANSI_RED = "\u001B[31m";
     private static String commentOutput(double output) {
 
         if (output > LIMIT) {
-            return ANSI_GREEN + "Odcisk palca należy do zdefiniowanych w sieci" + ANSI_RESET;
+            return "Odcisk palca należy do zdefiniowanych w sieci";
         } else {
-            return ANSI_RED + "Odcisku palca nie ma w zdefiniowanych w sieci" + ANSI_RESET;
+            return "Odcisku palca nie ma w zdefiniowanych w sieci";
         }
     }
 

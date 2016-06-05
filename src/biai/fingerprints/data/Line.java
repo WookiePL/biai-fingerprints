@@ -1,5 +1,8 @@
 package biai.fingerprints.data;
 
+/*
+    prosta struktura reprezentująca jedną linię z pliku tekstowego
+ */
 public class Line {
 
     double x1;
