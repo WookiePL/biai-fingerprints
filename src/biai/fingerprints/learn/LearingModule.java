@@ -124,9 +124,9 @@ public class LearingModule {
     }
 
     public static void main(String[] args) {
-        folderPath = args[0];
+        //folderPath = args[0];
         //LearingModule learingModule = new LearingModule(80, 1, 61);
-        LearingModule learingModule = new LearingModule(84, 1, 57);
+        LearingModule learingModule = new LearingModule(80, 1, 57);
 
         System.out.println("Utworzono sieć");
         System.out.println("ilość neuronow w warstwie wejściowej: " + 100);
