@@ -43,7 +43,7 @@ public class LearingModule {
      *  0 - z folderu o nazwie test*
      *  1 - harcodowane w metodzie createTrainingSet()
      */
-    private static final Integer LEARNING_SET = 0;
+    private static final Integer LEARNING_SET = 1;
 
     public void createTrainingSet() throws IOException {
         switch (LEARNING_SET) {
@@ -154,6 +154,8 @@ public class LearingModule {
     }
 
     public static void main(String[] args) throws IOException {
+        long startTime = System.nanoTime();
+
         folderPath = args[0];
         scanWidth = Integer.parseInt(args[1]);
         scanHeight = Integer.parseInt(args[2]);
@@ -181,6 +183,11 @@ public class LearingModule {
         learingModule.saveNetwork();
 
         System.out.println("Zapisano sieć do pliku fingerptints_perceptron.nnet");
+
+        long endTime = System.nanoTime();
+        long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+
+        System.out.println("Zajęło to " + duration / 1000000 / 1000 + " sekund (" + duration / 1000000 + " milisekund).");
     }
 
 }
