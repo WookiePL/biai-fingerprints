@@ -19,3 +19,4 @@ module_biai-fingerprints.xml
 
 #wyrzucam cały folder bo są problemy z projektem jak jest na repo
 .idea/*
+out/*
