@@ -1,5 +1,8 @@
-# biai
-## fingerprints recognition
+# biai-fingerprints
+### fingerprints recognition
+Aplikacja do rozpoznawania odcisków palców, Politechnika Śląska w Gliwicach, AEiI 2016
+
+Autorzy: Łukasz Janas, Michał Urbański
 
 ### links
 * [Training data] (http://bias.csr.unibo.it/fvc2000/download.asp)
